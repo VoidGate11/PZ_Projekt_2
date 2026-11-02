@@ -16,20 +16,22 @@ BST::~BST() {
 }
 
 // Dodawanie elementu
-Node* BST::insert(Node* node, int value) {
-    if (node == nullptr)
-        return new Node(value);
-
-    if (value < node->value)
-        node->left = insert(node->left, value);
-    else if (value > node->value)
-        node->right = insert(node->right, value);
-
-    return node;
-}
-
 void BST::add(int value) {
-    root = insert(root, value);
+    Node** current = &root;
+
+    while (*current != nullptr) {
+        if (value < (*current)->value)
+            current = &((*current)->left);
+        else if (value > (*current)->value)
+            current = &((*current)->right);
+        else {
+            cout << "Element juz istnieje!\n";
+            return;
+        }
+    }
+
+    *current = new Node(value);
+
     cout << "Dodano element: " << value << endl;
 }
 

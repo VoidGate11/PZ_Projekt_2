@@ -10,7 +10,7 @@ class BST {
 private:
     Node* root;
 
-    Node* insert(Node* node, int value);
+
     Node* remove(Node* node, int value);
     Node* findMin(Node* node);
     Node* search(Node* node, int value);
