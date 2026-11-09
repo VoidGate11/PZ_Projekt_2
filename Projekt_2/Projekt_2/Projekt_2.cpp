@@ -4,6 +4,7 @@
 
 #include "BST.h"
 #include "FileManager.h"
+//komentarz na galenzi OK
 
 using namespace std;
 
