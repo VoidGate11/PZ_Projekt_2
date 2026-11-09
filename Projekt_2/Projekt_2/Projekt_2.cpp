@@ -6,6 +6,8 @@
 #include "FileManager.h"
 //komentarz na galenzi OK
 
+//OK 2
+
 using namespace std;
 
 int main() {
