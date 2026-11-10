@@ -5,6 +5,11 @@
 #include <fstream>
 #include <algorithm>
 
+/**
+ * @file BST.cpp
+ * @brief Implementacja metod klasy BST.
+ */
+
 using namespace std;
 
 BST::BST() {

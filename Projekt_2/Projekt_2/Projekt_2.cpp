@@ -1,3 +1,10 @@
+/**
+ * @file Projekt_2.cpp
+ * @brief Glowny plik programu obslugujacego drzewo BST.
+ *
+ * Zawiera menu umozliwiajace wykonywanie operacji
+ * na drzewie oraz obsluge plikow.
+ */
 
 #include <iostream>
 #include <limits>
@@ -12,7 +19,14 @@
 
 using namespace std;
 
+
 // DM 3
+
+
+/**
+ * @brief Glowna funkcja programu.
+ * @return 0 Po poprawnym zakonczeniu programu.
+ */
 
 int main() {
     BST tree;

@@ -4,6 +4,11 @@
 #include <iostream>
 #include <fstream>
 
+/**
+ * @file FileManager.cpp
+ * @brief Implementacja metod klasy FileManager.
+ */
+
 using namespace std;
 
 void FileManager::saveText(
