@@ -28,7 +28,7 @@ private:
 
     void printTree(Node* node, int space);
     void saveText(Node* node, std::string& output);
-    void saveBinary(Node* node, std::vector<int>& values);
+    void saveBinary(std::vector<int>& values, Node* node);
 
 public:
     /** @brief Konstruktor drzewa BST. */
